@@ -1,13 +1,16 @@
 .header
+  display: grid;
+  padding: 50px 92px 50px 92px;
 
 .header__menu
+ 
 
 .header__links_list
 
 .header__links-list-item_no-bullit
-
+  list-style: none;
 .header__links-list_item
-
+list-style: circle;
 .header__link
 
 .cover
