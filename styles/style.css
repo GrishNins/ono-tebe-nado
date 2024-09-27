@@ -1,19 +1,61 @@
-.header
-  display: grid;
-  padding: 50px 92px 50px 92px;
+.header,
+.main,
+.about,
+.footer {
+    margin: 0;
+    padding: 0;
+}
 
-.header__menu
+.header {
+    display: grid;
+    grid-template-columns: 1fr 148px 1fr;
+    font-size: 18px;
+    padding: 92px 24px 92px 24px;
+    align-items: center;
+}
+
+.header__menu {
+    align-self: center;
+}
+
+.address {
+    font-size: 18px;
+    border: unset;
+    font-family: Raleway, serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    padding-left: 184px;
+}
  
+.header__links_list-item {
+    list-style-type: circle;
+}
 
-.header__links_list
+.header__link_active,
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+}
 
-.header__links-list-item_no-bullit
-  list-style: none;
-.header__links-list_item
-list-style: circle;
-.header__link
+.header__links_list {
+    display: flex;
+    justify-content: space-around;
+}
 
-.cover
+.header_address {
+    justify-self: right;
+    max-width: 240px;
+}
+
+.header__logo {
+    display: block;
+    width: 138px;
+    height: 105px;   
+}
+
+.cover {
+  
+}
 
 .lots
 
