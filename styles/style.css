@@ -31,7 +31,6 @@
     list-style-type: circle;
 }
 
-.header__link_active,
 .header__links-list-item_no-bullit {
     list-style-type: none;
 }
@@ -166,6 +165,7 @@
     width: 330px;
     position:relative;
     flex-grow: 1;
+    font-family: Raleway;
 }
 
 .card-link {
@@ -207,6 +207,10 @@
 .card__text {
     color: #fff;
     font-size: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
 .lots__look-more-link {
     display: block;
