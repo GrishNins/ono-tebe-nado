@@ -8,16 +8,14 @@
 
 .header {
     display: grid;
-    grid-template-columns: 1fr 137px 1fr;
+    grid-template-columns: 1fr 148px 1fr;
     font-size: 18px;
-    padding: 94px 48px 94px 48px;
+    padding: 95px 53px 94px 50px;
     align-items: center;
 }
 
 .header__menu {
     align-self: center;
-    width: 406px;
-    height: 22px;
 }
 
 .address {
@@ -31,18 +29,22 @@
     list-style-type: circle;
 }
 
+.link-active {
+    text-decoration: none;
+}
+
 .header__links-list-item_no-bullit {
     list-style-type: none;
 }
 
 .header__links_list {
     display: flex;
-    justify-content: space-around;
+    column-gap: 34px;
 }
 
 .header__address {
-    justify-self: right;
-    width: 236px;
+    justify-self: end;
+    max-width: 236px;
 }
 
 .header__logo {
@@ -55,13 +57,12 @@
     background-image: url(../images/cover.jpg);
     position: relative;
     background-size: cover;
-    height: 757px;
     background-repeat: no-repeat;
     background-position: center;
     padding: 165px 50px 0 50px;
     display: flex;
     flex-direction: column;
-    z-index: -2;
+    z-index: 0;
 }
 
 .overlay {
@@ -82,6 +83,7 @@
     text-transform: uppercase;
     font-weight: bold;
     height: 100%;
+    padding-bottom: 119px;
     z-index: auto;
 }
 
@@ -121,7 +123,7 @@
 .cover__description-text {
     color: #fff;
     text-align: center;
-    font-family: Raleway, serif;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -135,7 +137,7 @@
     padding: 12px 32px;
     color: #fff;
     text-align: center;
-    font-family: Raleway, serif;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
@@ -165,7 +167,7 @@
     width: 330px;
     position:relative;
     flex-grow: 1;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
 }
 
 .card-link {
@@ -182,19 +184,20 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 50px 40px;
+    z-index: -2;
 }
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    z-index: -2;
+    
 }
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    z-index: -2;
+    
 }
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    z-index: -2;
+    
 }
 .card__title {
     color: #fff;
@@ -217,7 +220,7 @@
     text-decoration: underline 1px;
     margin-left: 39px;
     text-underline-offset: 4px;
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .about {
@@ -274,11 +277,11 @@
 }
 
 .footer__address {
-    width: 240px;
+    max-width: 240px;
     height: 24px;
-    border: 1px;
-
+    padding-top: 2px;
 }
+
 .footer__menu {
     font-size: 18px;
     text-align: center;
@@ -312,7 +315,6 @@
 .footer__social-link {
     display: block;
     width: 48px;
-    height: 48px;
 }
 
 .footer__social-icon {
