@@ -8,9 +8,9 @@
 
 .header {
     display: grid;
-    grid-template-columns: 1fr 148px 1fr;
+    grid-template-columns: 1fr 138px 1fr;
     font-size: 18px;
-    padding: 95px 53px 94px 50px;
+    padding: 95px 53px 93px 50px;
     align-items: center;
 }
 
@@ -50,7 +50,7 @@
 .header__logo {
     display: block;
     width: 138px;
-    height: 105px;
+    height: 106px;
 }
 
 .cover {
@@ -273,12 +273,11 @@
    display: flex;
    justify-content: space-between;
    align-content: start;
-   margin: 93px 50px 90px 50px;
+   margin: 93px 50px 10px 50px;
 }
 
 .footer__address {
     max-width: 240px;
-    height: 24px;
     padding-top: 2px;
 }
 
@@ -309,8 +308,6 @@
     list-style: none;
     gap: 48px;
 }
-
-.footer__social-list-item
 
 .footer__social-link {
     display: block;
